@@ -1,5 +1,7 @@
 # ai-crawler-classifier
 
+[![CI](https://github.com/jbeegel/ai-crawler-classifier/actions/workflows/ci.yml/badge.svg)](https://github.com/jbeegel/ai-crawler-classifier/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 A small TypeScript function that classifies a web request as a search crawler, an AI crawler (training, search index or a live fetch for someone's question) or a human visit referred by an AI assistant, using only the user agent and the referrer.
 
 ## Who it is for
